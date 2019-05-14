@@ -8,7 +8,7 @@ numbers = []
 for num in range (100):
     n = random.randint(1,1000)
     numbers.append(n)
-print('This list consist of the following numbers : \n', numbers)
+print('This list consists of the following numbers : \n', numbers)
 
 #------Finding mean------
 total = 0
