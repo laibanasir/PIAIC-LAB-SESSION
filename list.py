@@ -15,12 +15,13 @@ total = 0
 for i in numbers :
     total += i
 mean = total / 100
-print('\nNumbers in list : 100' , '\n\nTotal : ' , total , '\n\nMean : ' , mean)
+print('\nNumbers in list : 100' , '\nTotal           : ' , total , '\t Mean : ' , mean)
 
 #------Using max and min function------
 maxnum = max(numbers)
 minnum = min(numbers)
 indexmax = numbers.index(maxnum)
 indexmin = numbers.index(minnum)
-print('\nmaximum number : ' , maxnum , '\t\tindex : ' , indexmax)
-print('minimum number : ' , minnum , '\t\tindex : ' , indexmin)
+print('Maximum number  : ' , maxnum , '\t\tIndex : ' , indexmax)
+print('Minimum number  : ' , minnum , '\t\tIndex : ' , indexmin)
+print('\n---------------------------------------------')
